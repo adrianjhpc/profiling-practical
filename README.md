@@ -1,22 +1,16 @@
-# Introduction to ARCHER2 for Developers
+# Profiling on ARCHER2
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
-This is not an official Carpentries lesson, but the Carpentries lesson template is excellent, so we are using it.
+This has been taken from https://github.com/EPCCed/2023-12-08-archer2-intro-develop.
 
 ## Maintainer(s)
 
-* [William Lucas](mailto:w.lucas@epcc.ed.ac.uk) 
+* Adrian Jackson
 
 ## Authors
 
 A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
 
-## Citation
-
-To cite this lesson, please consult with [CITATION](CITATION)
-
-[lesson-example]: https://carpentries.github.io/lesson-example
 
 ## License
 
