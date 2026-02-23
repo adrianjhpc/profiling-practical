@@ -35,7 +35,6 @@ REQUIRED_FILES = {
     '%/_extras/guide.md': True,
     '%/index.md': True,
     '%/reference.md': True,
-    '%/setup.md': True,
 }
 
 # Episode filename pattern.
