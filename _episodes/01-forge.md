@@ -56,7 +56,7 @@ At this point the one-time setup is complete.
 
 ## Setting up and configuring the Linaro Forge client
 
-Firstly, you will need to download and install the [Forge software from Linaro](https://www.linaroforge.com/downloadForge/). A client for your OS and CPU architecture should be available -- you will generally want to download the client version which matches the version installed on ARCHER2. At the moment, that means version 22.1.3.
+Firstly, you will need to download and install the [Forge software from Linaro](https://www.linaroforge.com/downloadForge/). A client for your OS and CPU architecture should be available -- you will generally want to download the client version which matches the version installed on ARCHER2. Version 24.0 is known to work with the forge/24.0 module and version 25.0 is known to work with the forge/25.0.1 module at the time of writing. 
 
 The client connects to ARCHER2 over SSH. That means that whatever we need to log in in the terminal, we will also need to provide to Forge. This has the potential to get tricky around the SSH key. A fairly failsafe way to do this 
 
@@ -122,9 +122,9 @@ You can set your job's remaining parameters by clicking on the 'Parameters' butt
 * Wall clock limit = 00:10:00
 * Partition = `standard`
 * QoS = `short`
-* Account = `{{site.gid}}`
+* Account = YourAccountCode 
 
-So, the job can run for ten minutes at most on a `standard` partition node under the `short` QoS, and will be charged to the `{{site.gid}}` budget. This is just like a normal job script that you would submit to the queue with `sbatch`, and you can change these parameters to anything that would be accepted in a normal job.
+So, the job can run for ten minutes at most on a `standard` partition node under the `short` QoS. This is just like a normal job script that you would submit to the queue with `sbatch`, and you can change these parameters to anything that would be accepted in a normal job.
 
 No other sets of options should be enabled. At this point, everything should be ready to go. Click on `Submit` to start. If you are lucky, the job will get through the queue and start quickly.
 

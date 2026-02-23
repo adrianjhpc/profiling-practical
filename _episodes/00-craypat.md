@@ -1,7 +1,5 @@
 ---
 title: "Profiling on ARCHER2"
-teaching: 30
-exercises: 15
 questions:
 - "What profiling tools are available on ARCHER2 and how can I access them?"
 - "Where can I find more documentation on and get help with these tools?"
@@ -39,7 +37,7 @@ See the [Cray Performance Measurement and Analysis Tools User Guide](https://pub
 Other tools available are:
 
 * **Scalasca** used for the scalable performance analysis of large-scale parallel applications.
-* **ARM MAP** (previously known as Allinea MAP) will be available soon for ARCHER2 users.
+* **Linaro MAP** (previously known as Allinea or Arm MAP) is also available for ARCHER2 users.
 
 ## Using CrayPat Lite to profile an application
 
@@ -78,9 +76,9 @@ INFO: creating the PerfTools-instrumented executable 'nbody-parallel.exe' (lite-
 ```
 {: .output}
 
-As the output of the compilation says, the executable `nbody-parallel.exe` binary has been instrumented by CrayPat-lite. A batch script called ``run.slurm`` is in the directory. Change the account to ``{{site.gid}}`` so it can be run. You can also use the course node reservation (check with the instructor or helpers) or the ``short`` QoS.
+As the output of the compilation says, the executable `nbody-parallel.exe` binary has been instrumented by CrayPat-lite. A batch script called ``run.slurm`` is in the directory. Change the account to your account so it can be run. You can also use the ``short`` QoS for a quick turnaround.
 
-Once our job has finished, we can get the performance data summarized at the end of the job STDOUT.
+Once our job has finished, we can get the performance data summarised at the end of the job STDOUT.
 ```
 auser@ln01:~/nbody-par> less slurm-out.txt
 ```
@@ -448,10 +446,6 @@ and the Cray documentation:
 
 * [ARCHER2 Documentation](https://docs.archer2.ac.uk/user-guide/profile/)
 * [Cray Technical Documentation](https://support.hpe.com/hpesc/public/docDisplay?docId=a00115110en_us&docLocale=en_US&page=Cray_Performance_Measurement_and_Analysis_Tools_CPMAT.html)
-
-If the documentation does not answer your questions then please contact
-[the ARCHER2 Service Desk](https://www.archer2.ac.uk/support-access/servicedesk.html) and they
-will be able to assist you.
 
 {% include links.md %}
 
