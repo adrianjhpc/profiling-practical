@@ -29,8 +29,6 @@ SOURCE_RMD_DIRS = ['_episodes_rmd']
 # specially. This list must include all the Markdown files listed in the
 # 'bin/initialize' script.
 REQUIRED_FILES = {
-    '%/CODE_OF_CONDUCT.md': True,
-    '%/CONTRIBUTING.md': False,
     '%/LICENSE.md': True,
     '%/README.md': False,
     '%/_extras/discuss.md': True,
@@ -534,12 +532,10 @@ class CheckGeneric(CheckBase):
 
 
 CHECKERS = [
-    (re.compile(r'CONTRIBUTING\.md'), CheckNonJekyll),
     (re.compile(r'README\.md'), CheckNonJekyll),
     (re.compile(r'index\.md'), CheckIndex),
     (re.compile(r'reference\.md'), CheckReference),
     (re.compile(r'_episodes/.*\.md'), CheckEpisode),
-    (re.compile(r'aio\.md'), CheckNonJekyll),
     (re.compile(r'.*\.md'), CheckGeneric)
 ]
 
