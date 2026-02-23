@@ -12,14 +12,7 @@ BOILERPLATE = (
     'AUTHORS',
     'README.md',
     '_config.yml',
-    '_episodes/01-introduction.md',
-    '_extras/about.md',
-    '_extras/discuss.md',
-    '_extras/figures.md',
-    '_extras/guide.md',
     'index.md',
-    'reference.md',
-    'setup.md',
 )
 
 

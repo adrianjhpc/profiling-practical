@@ -21,8 +21,6 @@
 [lc-lessons]: https://librarycarpentry.org/lessons/
 [lesson-example]: https://carpentries.github.io/lesson-example/
 [lesson-mainpage]: {{ relative_root_path }}{% link index.md %}
-[lesson-reference]: {{ relative_root_path }}{% link reference.md %}
-[lesson-setup]: {{ relative_page_root }}{% link setup.md %}
 [mit-license]: https://opensource.org/licenses/mit-license.html
 [morea]: https://morea-framework.github.io/
 [numfocus]: https://numfocus.org/
