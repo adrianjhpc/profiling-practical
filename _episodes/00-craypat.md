@@ -1,5 +1,7 @@
 ---
 title: "Profiling on ARCHER2"
+teaching: 30
+exercises: 30
 questions:
 - "What profiling tools are available on ARCHER2 and how can I access them?"
 - "Where can I find more documentation on and get help with these tools?"
